@@ -1,0 +1,175 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "CKjwUvJXjPMhCyRk+A0surZFo0k4oDa5Z93c3S1tCna6zzdM4piyebSWpvOUs0feAW7gknoxXl0hMJb74Y8u+w==",
+        "bundleName": "C361559D5EA_Pet_Retrieve",
+        "entitiesBundle": {
+          "Types": {
+            "tags": {
+              "name": "tags",
+              "properties": [
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "category": {
+              "name": "category",
+              "properties": [
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "Pet_Retrieve": {
+              "name": "Pet_Retrieve",
+              "properties": [
+                {
+                  "name": "photoUrls",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "isCollection": true
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "status",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "tags",
+                  "type": {
+                    "definitionName": "tags"
+                  },
+                  "isCollection": true
+                },
+                {
+                  "name": "category",
+                  "type": {
+                    "definitionName": "category"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C361559D5EA_Pet_Retrieve",
+        "hash": "Q0tqd1V2SlhqUE1oQ3lSaytBMHN1clpGbzBrNG9EYTVaOTNjM1MxdENuYTZ6emRNNHBpeWViU1dwdk9VczBmZUFXN2drbm94WGwwaE1KYjc0WTh1K3c9PQ",
+        "assemblyName": "C361559D5EA_Pet_Retr.DWaYn2rPRhG1LXqWU2w4DpM2"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "SoOzS3gU5fjfh5FEkFt0vf1F9UYcBSH1T5NkszXMJx5E0w58JsswaEwmCxCKKRxnAwSHMzvnqS4PNPqj7rq5fQ==",
+        "bundleName": "C361559D5EA_User_Retrieve",
+        "entitiesBundle": {
+          "Types": {
+            "User_Retrieve": {
+              "name": "User_Retrieve",
+              "properties": [
+                {
+                  "name": "firstName",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "lastName",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "password",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "userStatus",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "phone",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "email",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "username",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C361559D5EA_User_Retrieve",
+        "hash": "U29PelMzZ1U1ZmpmaDVGRWtGdDB2ZjFGOVVZY0JTSDFUNU5rc3pYTUp4NUUwdzU4SnNzd2FFd21DeENLS1J4bkF3U0hNenZucVM0UE5QcWo3cnE1ZlE9PQ",
+        "assemblyName": "C361559D5EA_User_Ret.GoV213VbEDF1SvKGV1Tz7iD4"
+      }
+    }
+  ]
+}
